@@ -1,0 +1,16 @@
+[2026-02-11 09:19:23] Skill: obsidian-vault — Created 'Shopping List - EUA Abril 2026.md' with clothing shopping plan for April US trip
+[2026-02-11 21:50] GitHub accounts clarified: João = joaohts, Jonathan = joaohtsantos. Generated SSH key at ~/.ssh/id_jonathan for joaohtsantos account. Updated MEMORY.md.
+[2026-02-11 22:25] Installed Docker + full observability stack:
+- Docker Engine 29.2.1
+- Grafana (port 3030, admin/openclaw)
+- Prometheus (port 9090)
+- Loki (port 3100)
+- Tempo (port 3200)
+- OTel Collector (port 4318)
+- All using host networking (UFW was blocking bridge mode)
+- OpenClaw configured with diagnostics-otel plugin: traces, metrics, logs
+- Logs also persist to /home/joaohts/observability/logs/
+- Config files at /home/joaohts/observability/
+[2026-02-11 22:26] SOUL.md edited: added rule to delegate big tasks to sub-agents
+[2026-02-11T23:46:14-03:00] WhatsApp FIXED: Discovered OpenClaw has built-in Baileys WhatsApp — WAHA was completely redundant. Stopped waha-plus container. Enabled whatsapp plugin in config. Successfully sent message to João via native WhatsApp. Also updated MEMORY.md re: WhatsApp fix.
+[2026-02-11T23:52:20-03:00] Launched logging-v3 orchestrator sub-agent (label: logging-v3-orchestrator, 1h timeout, sonnet). Set up 3AM nightly cron (logging-v3-nightly). 3 agent roles: critic, designer, programmer — 5+ improvement cycles. Scratchpads in logging-v3/. Stopped WAHA container (redundant).

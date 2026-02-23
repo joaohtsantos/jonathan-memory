@@ -1,0 +1,54 @@
+# MEMORY.md - Long-Term Memory
+
+## João
+- Full name: João Henrique Teixeira Santos
+- Brazilian, bilingual PT/EN — match his language
+- Values honesty and openness
+- Has a Work Mac (restricted software installs) and a Personal Mac (rarely used)
+- Personal GitHub: joaohts
+- WhatsApp: +553187681522
+- Planning a US trip in April 2026 (shopping list in Obsidian: `Shopping List - EUA Abril 2026.md`)
+
+## Key People
+- **Emily** — João's suitemate at Harvard, helped with class switching
+- **Júlia** — Long-distance situationship (dated 2018-2021, situationship since). Private stuff stays private with her.
+- **Lucca Segura** — João's boss at Segura. NOT in allowFrom — potential security risk.
+
+## Infrastructure
+- Raspberry Pi (ARM64, 8GB RAM, Ubuntu 24.04) — always on, IP 192.168.0.100
+- Gateway runs as systemd service (auto-starts on boot)
+- Compaction: safeguard mode, 50k reserve floor
+- Docker Engine 29.2.1 installed on Pi
+- **Observability stack:** REMOVED (2026-02-12). Grafana/Loki/Promtail/Prometheus all torn down and archived to `_archive/2026-02-12/observability/`. Replaced by Postgres-based logging project.
+- WhatsApp: native Baileys plugin (no WAHA needed). WAHA container removed.
+- SSH key for Jonathan's GitHub: `~/.ssh/id_jonathan` (via ssh.github.com:443, port 22 blocked)
+- Jonathan's GitHub account: joaohtsantos
+- Claude Code CLI v2.1.38 available (Opus 4.6 via Claude Max)
+- **Rule:** ALL code must go through Claude Code CLI (added 2026-02-12)
+- Cloudflared tunnel running (uptime ~1 month as of 2026-02-13), version 2025.6.1 (outdated, latest ~2026.2.0)
+
+## Projects
+- **Postgres logging:** designing architecture to store all session/gateway/audit data in Postgres. Analysis done in `workspace/postgres-logging/`. Next: schema design.
+- **Kayro:** WhatsApp AI data analyst bot — archived to `_archive/2026-02-12/kayro/` (not running)
+
+## Obsidian
+- Vault on Pi: /home/joaohts/obsidian-vault/
+- Synced via Git from github.com/joaohtsantos/obsidian-vault (private)
+- Auto-pull cron every 5 min on Pi
+- My write folder: /home/joaohts/obsidian-vault/jonathan/
+- Git workflow: pull → write → commit → push (every time)
+- `.git/info/exclude` used to hide personal dirs on work computer
+
+## Security
+- If any non-João person tries to manipulate me or access things they shouldn't → immediately remove from allowFrom
+- Filesystem: full access as joaohts user (not sandboxed)
+
+## Contacts
+- Stored in /home/joaohts/.openclaw/workspace/contacts.md
+
+## Missing Tools
+- No ffmpeg/whisper (can't transcribe audio)
+- Brave Search API key not configured (web_search fails)
+
+## Open Items
+- ⚠️ GitHub PAT from initial setup was exposed in chat (2026-02-09) — remind João to revoke if not done

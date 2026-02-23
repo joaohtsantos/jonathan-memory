@@ -1,0 +1,15 @@
+[2026-02-12T03:01:00-03:00] Logging review cron job started. Reading PLAN-logging-v2.md and REPORT-logging.md.
+[2026-02-12T03:05:00-03:00] Fixed all dashboard line_format templates - changed from broken '| json' to explicit field extraction with '| json field="path"' syntax.
+[2026-02-12T03:07:00-03:00] Fixed Promtail config - updated tool_name extraction to handle content[0] and content[1] positions.
+[2026-02-12T03:08:00-03:00] Added session_id filters to oc-errors and oc-timeline dashboards.
+[2026-02-12T03:09:00-03:00] Made tool_name variable dynamic (from Loki labels) instead of hardcoded.
+[2026-02-12T03:10:00-03:00] Added session list table to session-explorer, stat panels to messages dashboard, tool distribution chart, spawn timeline.
+[2026-02-12T03:30:00-03:00] Completed logging v2 overhaul: fixed line_format templates, gateway log extraction, Promtail config, added dashboard features. 5 critic cycles run (3.7→7.5/10). Updated REPORT-logging.md and memory/2026-02-12.md.
+2026-02-12 03:32:37 - logging-v3-nightly: Completed 5+ cycles of dashboard improvements (Cycles 6-9). Major achievements: Overview visual hierarchy, Session investigation workflow, Tool intelligence platform, Error predictive analytics, Task performance analytics, Timeline interactivity, Navigation consistency across all 7 dashboards. System rating improved from 9/10 to 9.8/10 with enterprise-grade capabilities.
+[2026-02-12T03:32:55-03:00] 3AM cron logging-v3-nightly completed: cycles 6-9 done, dashboards polished further. João sleeping — will notify in morning.
+[2026-02-12 08:52:12] Spawned log-source-analysis sub-agent for postgres-logging project
+[2026-02-12 08:54:43] New rule: all coding tasks delegated to Claude Code CLI from now on
+[2026-02-12 09:27:05] TODO added: explore Spotify APIs
+[2026-02-12T09:46:48-03:00] Sleep cycle: archived 7 files, reorganized Obsidian jonathan/ (daily-notes + sleep folders), updated MEMORY.md (added projects/infra details, removed stale WAHA history)
+[2026-02-12 09:48:36] SLEEP CYCLE: Memory cleanup (added Observability v2 to MEMORY.md), renamed 5 critic reports in _archive/ with date prefixes, synced sleep note to Obsidian.
+[2026-02-12 09:53:15] Edited TOOLS.md: added rule to centralize all TODOs in jonathan/ Obsidian folder
