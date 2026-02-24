@@ -1,3 +1,9 @@
 [2026-02-23T07:42:58-03:00] Fixed wpa_supplicant: set update_config=0, created backup + fix-wpa.service (auto-restore on boot)
 [2026-02-23T07:44:38-03:00] Spawned sub-agent to create jonathan-memory GitHub repo + daily backup cron
 [2026-02-23T07:46:18-03:00] Changed keyboard layout to br-abnt2 (/etc/default/keyboard)
+[2026-02-23T07:51:37-03:00] Updated memory/2026-02-23.md (daily log) and MEMORY.md (infra updates: gh CLI, keyboard, wpa fix, jonathan-memory backup)
+[2026-02-23T07:58:44-03:00] Implemented TODO cron: bash gate script (scripts/todo-check.sh) + OpenClaw cron job todo-resolver (3daeb85b). Hourly check, zero-token gate.
+[2026-02-23 08:04:01] CRON todo-resolver: Completed weather task — saved SP weather to memory/weather-test.md, marked TODO done, pushed to git. Used skill: weather, obsidian-vault.
+[2026-02-23 08:25] [cron:todo-resolver] Worked on TODO: 'Reorganize notes outside jonathan/'. Analyzed vault structure, wrote proposal at jonathan/projects/vault-reorganization-proposal.md. Sent to João for approval — did NOT mark as complete (needs his input first).
+[2026-02-23T08:31:09-03:00] [todo-resolver] Vault reorganization task: analyzed vault structure, wrote proposal to jonathan/projects/vault-reorganization-proposal.md, pushed to git, sent WhatsApp to João for approval. Task NOT marked done — awaiting approval.
+[2026-02-23T09:35:05-03:00] Security: cleaned OpenAI key from git history (obsidian-vault) using git-filter-repo + force push. PAT also visible in remote URL — reminded João to revoke.

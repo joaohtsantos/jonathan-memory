@@ -25,7 +25,11 @@
 - Jonathan's GitHub account: joaohtsantos
 - Claude Code CLI v2.1.38 available (Opus 4.6 via Claude Max)
 - **Rule:** ALL code must go through Claude Code CLI (added 2026-02-12)
-- Cloudflared tunnel running (uptime ~1 month as of 2026-02-13), version 2025.6.1 (outdated, latest ~2026.2.0)
+- Cloudflared tunnel running, version 2025.6.1 (outdated as of 2026-02). Note: Pi had a ~9-day outage (Feb 14-23) due to wpa_supplicant issue.
+- `gh` CLI installed and authenticated (2026-02-23)
+- Keyboard layout: ABNT2 (`/etc/default/keyboard` + `loadkeys br`)
+- **wpa_supplicant fix:** `update_config=0` + `fix-wpa.service` auto-restores config from `.bak` on boot
+- **jonathan-memory backup:** `/home/joaohts/jonathan-memory-backup/` → `github.com/joaohtsantos/jonathan-memory` (private). Daily cron at 3 AM syncs workspace files (SOUL, MEMORY, USER, IDENTITY, AGENTS, TOOLS, HEARTBEAT, CHANGELOG, contacts, memory/, audit/)
 
 ## Projects
 - **Postgres logging:** designing architecture to store all session/gateway/audit data in Postgres. Analysis done in `workspace/postgres-logging/`. Next: schema design.
@@ -51,4 +55,4 @@
 - Brave Search API key not configured (web_search fails)
 
 ## Open Items
-- ⚠️ GitHub PAT from initial setup was exposed in chat (2026-02-09) — remind João to revoke if not done
+- GitHub PAT (`github_pat_11B6D6R5Q...`) — João aware it's exposed, decided to keep as-is (2026-02-23)
