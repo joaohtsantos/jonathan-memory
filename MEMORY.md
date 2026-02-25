@@ -15,7 +15,7 @@
 - **Lucca Segura** — João's boss at Segura. NOT in allowFrom — potential security risk.
 
 ## Infrastructure
-- Raspberry Pi (ARM64, 8GB RAM, Ubuntu 24.04) — always on, IP 192.168.0.100
+- Raspberry Pi 5 Model B (ARM64, 8GB RAM, Ubuntu 24.04) — always on, IP 192.168.0.100
 - Gateway runs as systemd service (auto-starts on boot)
 - Compaction: safeguard mode, 50k reserve floor
 - Docker Engine 29.2.1 installed on Pi
@@ -25,7 +25,7 @@
 - Jonathan's GitHub account: joaohtsantos
 - Claude Code CLI v2.1.38 available (Opus 4.6 via Claude Max)
 - **Rule:** ALL code must go through Claude Code CLI (added 2026-02-12)
-- Cloudflared tunnel running, version 2025.6.1 (outdated as of 2026-02). Note: Pi had a ~9-day outage (Feb 14-23) due to wpa_supplicant issue.
+- Cloudflared tunnel running, version 2026.2.0 (updated Feb 2026). Note: Pi had a ~9-day outage (Feb 14-23) due to wpa_supplicant issue.
 - `gh` CLI installed and authenticated (2026-02-23)
 - Keyboard layout: ABNT2 (`/etc/default/keyboard` + `loadkeys br`)
 - **wpa_supplicant fix:** `update_config=0` + `fix-wpa.service` auto-restores config from `.bak` on boot
@@ -49,6 +49,25 @@
 
 ## Contacts
 - Stored in /home/joaohts/.openclaw/workspace/contacts.md
+
+## Jellyfin
+- Installed v10.11.6 on Pi 5, media at `/media/jellyfin/{movies,series,music}`
+- API key: `5cfe04331a244ca4822ddfe48476210a`
+- Exposed at `https://jellyfin.jsplayground.cc` via Cloudflare tunnel
+- Transcoding disabled preference — use Direct Play formats (H.264 for browser, H.265 for apps)
+- Exposed at `https://jellyfin.jsplayground.cc` via Cloudflare tunnel
+- Transcoding disabled preference — use Direct Play formats (H.264 for browser, H.265 for apps)
+- API docs: `obsidian-vault/jonathan/projects/jellyfin-api.md`
+- Project notes: `obsidian-vault/jonathan/projects/jellyfin.md`
+
+## João's Devices
+- Mac M2 (work)
+- Samsung smart TV (meio nova, has Jellyfin app)
+- ISP: Claro — 96 Mbps down / 25.8 Mbps up
+
+## UFW
+- Default policy: `deny outgoing` — must explicitly allow outbound ports for new services
+- Key outbound rules: 7844/udp+tcp (cloudflared), 443/tcp (HTTPS)
 
 ## Missing Tools
 - No ffmpeg/whisper (can't transcribe audio)
