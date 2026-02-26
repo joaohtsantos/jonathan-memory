@@ -55,8 +55,7 @@
 - API key: `5cfe04331a244ca4822ddfe48476210a`
 - Exposed at `https://jellyfin.jsplayground.cc` via Cloudflare tunnel
 - Transcoding disabled preference — use Direct Play formats (H.264 for browser, H.265 for apps)
-- Exposed at `https://jellyfin.jsplayground.cc` via Cloudflare tunnel
-- Transcoding disabled preference — use Direct Play formats (H.264 for browser, H.265 for apps)
+- Users: joaohts, TvSp (Samsung TV), will, neco (Tarcizo José, S25 Ultra), Gustavo
 - API docs: `obsidian-vault/jonathan/projects/jellyfin-api.md`
 - Project notes: `obsidian-vault/jonathan/projects/jellyfin.md`
 
