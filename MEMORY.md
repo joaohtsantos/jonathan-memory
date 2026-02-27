@@ -32,6 +32,7 @@
 - **jonathan-memory backup:** `/home/joaohts/jonathan-memory-backup/` → `github.com/joaohtsantos/jonathan-memory` (private). Daily cron at 3 AM syncs workspace files (SOUL, MEMORY, USER, IDENTITY, AGENTS, TOOLS, HEARTBEAT, CHANGELOG, contacts, memory/, audit/)
 
 ## Projects
+- **Pager app:** Android push notification app for Jonathan alerts (so João can enable only these on smartwatch). Expo + React Native, package `cc.jsplayground.pager`. Needs FCM V1 service account key upload to Expo. In progress at `/home/joaohts/jonathan-pager/`.
 - **Postgres logging:** designing architecture to store all session/gateway/audit data in Postgres. Analysis done in `workspace/postgres-logging/`. Next: schema design.
 - **Kayro:** WhatsApp AI data analyst bot — archived to `_archive/2026-02-12/kayro/` (not running)
 
