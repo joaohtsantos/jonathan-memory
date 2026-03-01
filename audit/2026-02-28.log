@@ -1,1 +1,5 @@
 [2026-02-28T03:01:54Z] [cron:nightly-sleep] Sleep cycle 2026-02-28: 9 TODOs archived, 1 file archived (hank-green-grant-proposal.md), daily note 2026-02-27 created, TODO files cleaned, Obsidian pushed. MEMORY.md reviewed (no changes). Jellyfin: TvSp watched Puss in Boots.
+[2026-02-28 08:00:28] Morning briefing sent to João via WhatsApp. Calendar cleaned (removed past voo 27/02 event). Jellyfin activity included.
+[2026-02-28T08:00:44-03:00] SECURITY: Removed +5511984800807 (Deena El Orra) from WhatsApp allowFrom via cron job. Confirmed to João.
+[2026-02-28T08:01:07-03:00] Cron morning-briefing: sent WhatsApp briefing, read calendar/TODOs/sleep/jellyfin
+[2026-02-28T08:01:37-03:00] SECURITY: Removed Deena El Orra (+5511984800807) from WhatsApp allowFrom. Triggered by cron job remove-deena-allowfrom.

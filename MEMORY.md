@@ -13,6 +13,7 @@
 - **Emily** — João's suitemate at Harvard, helped with class switching
 - **Júlia** — Long-distance situationship (dated 2018-2021, situationship since). Private stuff stays private with her.
 - **Lucca Segura** — João's boss at Segura. NOT in allowFrom — potential security risk.
+- **Deena El Orra** (+5511984800807) — removed from allowFrom on 2026-02-28 (security action via cron job)
 
 ## Infrastructure
 - Raspberry Pi 5 Model B (ARM64, 8GB RAM, Ubuntu 24.04) — always on, IP 192.168.0.100
