@@ -26,6 +26,7 @@
 - Jonathan's GitHub account: joaohtsantos
 - Claude Code CLI v2.1.38 available (Opus 4.6 via Claude Max)
 - **Rule:** ALL code must go through Claude Code CLI (added 2026-02-12)
+- OpenClaw version: 2026.2.26 (updated 2026-03-01 from 2026.2.9)
 - Cloudflared tunnel running, version 2026.2.0 (updated Feb 2026). Note: Pi had a ~9-day outage (Feb 14-23) due to wpa_supplicant issue.
 - `gh` CLI installed and authenticated (2026-02-23)
 - Keyboard layout: ABNT2 (`/etc/default/keyboard` + `loadkeys br`)
