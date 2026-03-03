@@ -1,1 +1,4 @@
 [2026-03-02 00:01:18] SLEEP CYCLE: Created sleep note 2026-03-02.md, daily note 2026-03-01.md, updated MEMORY.md (OpenClaw version). 0 TODOs archived, 0 files moved.
+[2026-03-02 08:00:34] morning-briefing cron: sent daily briefing to João. Cleaned past events from calendar.md (viagem primos + voo BH→SP). No Jellyfin activity.
+2026-03-02T12:34:03Z [bug] Documented todo-output-leaking bug in bugs/todo-output-leaking.md
+2026-03-03T02:15:15Z [config] Added Gabriel Teixeira (+5561929153854) to allowFrom per João's request. Sent intro WhatsApp.
