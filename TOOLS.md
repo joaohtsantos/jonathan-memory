@@ -43,6 +43,11 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - **Git workflow:** Always `git pull` → write → `git add` → `git commit` → `git push`
 - **TODOs:** Centralize ALL TODOs in `jonathan/` (TODO-Personal.md, TODO-Segura.md, TODO-Jonathan.md). Always push.
 
+### Push Notifications
+- Script: `/home/joaohts/jonathan-pager/scripts/send-push.sh`
+- Uso: `send-push.sh alert "título" "mensagem"`
+- App: Pager (Expo/React Native, package `cc.jsplayground.pager`)
+
 ### Terminal Chat
 
 - Interactive conversation with me from terminal: `openclaw tui`

@@ -1,1 +1,6 @@
 [2026-03-03 00:02:34] nightly-sleep: 12 TODOs archived, 3 claude-sessions archived, MEMORY.md updated (added Gabriel), daily note 2026-03-02 created, sleep note 2026-03-03 created. Git pushed.
+2026-03-04T00:44:19Z [edit] Added push notifications to TOOLS.md
+2026-03-04T00:47:46Z [config] Disabled diagnostics.otel and diagnostics in openclaw.json
+2026-03-04T01:01:31Z [edit] Rewrote IDENTITY.md — facts only, moved behavioral stuff to SOUL.md domain
+2026-03-04T01:04:40Z [edit] Reorganized SOUL.md and AGENTS.md — moved operational rules from SOUL to AGENTS, SOUL now personality/values only
+2026-03-04T01:16:53Z [config] Enabled heartbeat every 4h. Updated HEARTBEAT.md — focus on memory notes, removed WhatsApp pings

@@ -18,7 +18,7 @@
 - **Segura** (insurtech startup) — full-time since graduation, salary + stock options
 - Built "Kayro" — a WhatsApp AI data analyst bot (SQL-based, for Gazzoni, Blue Bev, Leo Madeiras clients)
 - Has experience with AI systems, data analysis, WhatsApp bots
-- "Bebeto" was his mentor/boss at a previous internship (Akad?) — deeply grateful to him
+- "Bebeto" was his mentor/boss at a previous internship (Akad?)
 
 ## Mentoring
 - Mentors Brazilian students applying to US colleges
@@ -41,13 +41,10 @@
 - **Philosophy:** Thinks about immortality, cultural evolution, power hierarchies, the nature of knowledge
 - **Tech/Maker:** Interested in NFC projects, Rubik's cube, AI, Spotify data analysis, Obsidian customization
 - **Football:** Clube Atlético Mineiro (Galo) 🐔
-- **Exercise:** Running (PB: 6.2km), push-ups, planks
 - **Fashion:** Interested in developing taste (saved articles on the topic)
 
 ## Key Relationships
 - Strong family ties in BH (family was his main support network)
-- "Tio Rick" and "Tio Márcio" — family members he's re-evaluating relationships with
-- Deeply values loyalty and gratitude (see: letter to Bebeto)
 
 ## Context
 - Harvard grad now working full-time at Segura in São Paulo

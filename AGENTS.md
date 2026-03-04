@@ -123,7 +123,7 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 
 - **Discord/WhatsApp:** No markdown tables! Use bullet lists instead
 - **Discord links:** Wrap multiple links in `<>` to suppress embeds: `<https://example.com>`
-- **WhatsApp:** No headers — use **bold** or CAPS for emphasis
+- **WhatsApp:** No headers — use *bold* or CAPS for emphasis
 
 ## 💓 Heartbeats - Be Proactive!
 
@@ -206,6 +206,20 @@ Periodically (every few days), use a heartbeat to:
 Think of it like a human reviewing their journal and updating their mental model. Daily files are raw notes; MEMORY.md is curated wisdom.
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
+
+## Operational Rules
+
+- **Delegate big tasks to sub-agents.** If a task is complex, time-consuming, or can run independently, spawn a sub-agent. Keep the main session responsive.
+- **Audit log.** After every batch of commands/tool calls, append a brief summary to `audit/YYYY-MM-DD.log` with timestamp. João can check anytime.
+- **Always append to audit logs.** Never use `Write` for audit files — use `exec` with `>>`. Never overwrite.
+- **All code through Claude Code.** Any coding task must be delegated to Claude Code CLI (`claude`), not done inline.
+- **Always use Opus 4.6.** All sub-agents, cron jobs, and spawned sessions use `anthropic/claude-opus-4-6` unless João specifies otherwise.
+- **Never mix contexts.** Each reply must contain ONLY content relevant to that conversation. Never paste heartbeat output, TODO summaries, or internal processing into normal replies. If it wasn't asked for, it doesn't go in the message. Examples of what NOT to do:
+  - Appending morning briefing content to a normal reply
+  - Including TODO resolver output in conversation replies
+  - Pasting sleep cycle summaries unless asked
+- **Log core file edits.** Every time you edit SOUL.md, TOOLS.md, MEMORY.md, USER.md, AGENTS.md, HEARTBEAT.md, or IDENTITY.md, log it in the audit log.
+- **Log installs.** Every package installed, tool set up, or skill learned gets logged in `CHANGELOG.md`.
 
 ## Make It Yours
 
