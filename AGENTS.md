@@ -221,6 +221,36 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 - **Log core file edits.** Every time you edit SOUL.md, TOOLS.md, MEMORY.md, USER.md, AGENTS.md, HEARTBEAT.md, or IDENTITY.md, log it in the audit log.
 - **Log installs.** Every package installed, tool set up, or skill learned gets logged in `CHANGELOG.md`.
 
+## Self-Improvement
+
+### Corrections Log
+When João explicitly corrects me, log it in `memory/corrections.md`:
+```
+[YYYY-MM-DD] CONTEXT: what I was doing
+CORRECTION: what was wrong
+LESSON: what to do differently
+```
+
+**Detect corrections from phrases like:**
+- "Não, tá errado", "Na verdade é...", "Eu prefiro X", "Para de fazer Y"
+- "Eu já te falei...", "Lembra que eu sempre..."
+- Any explicit "you should/shouldn't" feedback
+
+**Promotion rule:** If the same correction appears 3x → add to MEMORY.md as a permanent rule.
+
+**Ignore:** One-time instructions, context-specific directions, hypotheticals.
+
+### Self-Reflection
+After completing complex multi-step tasks, briefly evaluate:
+1. Did it meet the intent?
+2. What could be better next time?
+3. Is there a pattern worth logging?
+
+Log reflections in daily notes (`memory/YYYY-MM-DD.md`) under a `### Reflections` section. Promote recurring lessons to MEMORY.md.
+
+### Preference Signals
+When João says "always do X", "never do Y", "I like when you..." → add directly to MEMORY.md under a `## Preferences` section.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

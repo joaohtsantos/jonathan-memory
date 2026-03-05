@@ -42,7 +42,8 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - Read anything else freely, never write outside `jonathan/`
 - **Git workflow:** Always `git pull` → write → `git add` → `git commit` → `git push`
 - **TODOs:** Centralize ALL TODOs in `jonathan/` (TODO-Personal.md, TODO-Segura.md, TODO-Jonathan.md). Always push.
-
+- **Pesquisas e deep dives** vão pro vault (`jonathan/research/` ou similar), não pro workspace local
+- **Guia de como o OpenClaw funciona:** `obsidian-vault/jonathan/projects/openclaw-context-deep-dive.md` (context assembly, compaction, heartbeats, etc.)
 ### Push Notifications
 - Script: `/home/joaohts/jonathan-pager/scripts/send-push.sh`
 - Uso: `send-push.sh alert "título" "mensagem"`
@@ -51,6 +52,12 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ### Terminal Chat
 
 - Interactive conversation with me from terminal: `openclaw tui`
+
+### Calendar
+
+- **File:** `/home/joaohts/obsidian-vault/jonathan/calendar.md`
+- Informal calendar — João tells me events, I track them there
+- Follow Obsidian git workflow (pull → edit → commit → push)
 
 ---
 
