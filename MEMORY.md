@@ -28,7 +28,7 @@
 - Jonathan's GitHub account: joaohtsantos
 - Claude Code CLI v2.1.38 available (Opus 4.6 via Claude Max)
 - **Rule:** ALL code must go through Claude Code CLI (added 2026-02-12)
-- OpenClaw version: 2026.2.26 (updated 2026-03-01 from 2026.2.9)
+- OpenClaw version: 2026.3.2 (updated 2026-03-05 from 2026.2.26)
 - Cloudflared tunnel running, version 2026.2.0 (updated Feb 2026). Note: Pi had a ~9-day outage (Feb 14-23) due to wpa_supplicant issue.
 - `gh` CLI installed and authenticated (2026-02-23)
 - Himalaya v1.2.0 (IMAP email CLI) installed. Config: ~/.config/himalaya/config.toml. UFW 993 open.
@@ -86,7 +86,8 @@
 
 ## Missing Tools
 - No whisper (can't transcribe audio) — ffmpeg IS available now
-- Brave Search API key not configured (web_search fails)
+- Audio transcription: WhatsApp audio enabled (tools.media.audio) but transcription returns empty — needs Gemini API key (João aware, pending)
+- web_search: now uses Gemini with Google Search grounding (Brave API not configured, but alternative works)
 
 ## Open Items
 - GitHub PAT (`github_pat_11B6D6R5Q...`) — João aware it's exposed, decided to keep as-is (2026-02-23)

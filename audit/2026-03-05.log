@@ -1,2 +1,8 @@
 [2026-03-05 00:02] Sleep cycle 2026-03-05: 1 TODO archived, 2 files archived, 5 MEMORY edits, daily note created for 2026-03-04
 [2026-03-05T00:06:54-03:00] Heartbeat: logged email-agent success to memory/2026-03-05.md. Late night (00:06), no proactive checks needed.
+[2026-03-05 08:00] [cron:morning-briefing] Sent morning briefing to João via WhatsApp. Calendar: 3 upcoming events (Thiago call today, wine night tomorrow, Tabata dinner Sat). Jellyfin: 1 login (joaohts Chrome, no playback). No calendar cleanup needed.
+[2026-03-05 08:16] HEARTBEAT: nothing new since 04:16. WhatsApp reconnected 2x overnight (auto). Push sent.
+[2026-03-05T09:49:44-03:00] Updated TODOs: nota emitida (done), removeu contatos genéricos de viagem, manteve só Salvatore. Adicionou TODO no trip doc + cron reminder 26/03 10h.
+[2026-03-05T09:50:01-03:00] Cron: lembrete nota fiscal todo dia 1 às 10h. TODO-Segura: added roadmap testes manuais + test set pra hoje.
+[2026-03-05T16:15:35-03:00] Heartbeat: updated daily notes. Nothing urgent.
+[2026-03-05T21:35:17-03:00] Updated OpenClaw 2026.2.26 → 2026.3.2. Key fix: MIME normalization for audio/ogg WhatsApp voice notes. Also: PDF tool, security hardening, local timezone logging, Pi startup optimization.
