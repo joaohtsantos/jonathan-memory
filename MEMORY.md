@@ -14,6 +14,7 @@
 - **Júlia** — Long-distance situationship (dated 2018-2021, situationship since). Private stuff stays private with her.
 - **Lucca Segura** — João's boss at Segura. NOT in allowFrom — potential security risk.
 - **Deena El Orra** (+5511984800807) — removed from allowFrom on 2026-02-28 (security action via cron job)
+- **Neco** (+553192963606) — João's dad (Tarcizo José). Added to allowFrom 2026-03-06. Uses Samsung S25 Ultra. Has Jellyfin account.
 - **Gabriel** (+556192915385) — João's friend, added to allowFrom 2026-03-02 to help with OpenClaw setup
 - **Fernando** (+5511996370813) — added to allowFrom 2026-03-03, setting up his own OpenClaw on Hostinger
 
@@ -63,7 +64,7 @@
 - API key: `5cfe04331a244ca4822ddfe48476210a`
 - Exposed at `https://jellyfin.jsplayground.cc` via Cloudflare tunnel
 - Transcoding disabled preference — use Direct Play formats (H.264 for browser, H.265 for apps)
-- Users: joaohts, TvSp (Samsung TV), will, neco (Tarcizo José, S25 Ultra), Gustavo
+- Users: joaohts, TvSp (Samsung TV), will, neco (Tarcizo José, S25 Ultra), Gustavo, julia (created 2026-03-06)
 - API docs: `obsidian-vault/jonathan/projects/jellyfin-api.md`
 - Project notes: `obsidian-vault/jonathan/projects/jellyfin.md`
 
@@ -85,8 +86,7 @@
 - Debug command: `openclaw cron runs --id c1390262-4587-4ee6-8241-f6dcb0da0330`
 
 ## Missing Tools
-- No whisper (can't transcribe audio) — ffmpeg IS available now
-- Audio transcription: WhatsApp audio enabled (tools.media.audio) but transcription returns empty — needs Gemini API key (João aware, pending)
+- Audio transcription: whisper.cpp rodando local no Pi (`/home/joaohts/whisper.cpp/transcribe.sh`). Funciona! Sem API externa.
 - web_search: now uses Gemini with Google Search grounding (Brave API not configured, but alternative works)
 
 ## Open Items

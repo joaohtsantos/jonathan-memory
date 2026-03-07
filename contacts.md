@@ -9,3 +9,4 @@
 | Lucca Segura | +55 21 99217-9069 |
 | Gabriel Teixeira (VUS Harvard) | +55 61 9291-5385 | Nota: menos experiência com CS — explicar setup do OpenClaw de forma simples e passo a passo |
 | Fernando | +55 11 9963-70813 | Nota: entusiasta de OpenClaw, menos conhecimento técnico — explicar com calma |
+| Neco | +55 31 9296-3606 | Nota: pai do João, de BH |
