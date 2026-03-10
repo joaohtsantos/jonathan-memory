@@ -27,7 +27,7 @@
 - WhatsApp: native Baileys plugin (no WAHA needed). WAHA container removed.
 - SSH key for Jonathan's GitHub: `~/.ssh/id_jonathan` (via ssh.github.com:443, port 22 blocked)
 - Jonathan's GitHub account: joaohtsantos
-- Claude Code CLI v2.1.38 available (Opus 4.6 via Claude Max)
+- Claude Code CLI v2.1.62 available (Opus 4.6 via Claude Max)
 - **Rule:** ALL code must go through Claude Code CLI (added 2026-02-12)
 - OpenClaw version: 2026.3.2 (updated 2026-03-05 from 2026.2.26)
 - Cloudflared tunnel running, version 2026.2.0 (updated Feb 2026). Note: Pi had a ~9-day outage (Feb 14-23) due to wpa_supplicant issue.
