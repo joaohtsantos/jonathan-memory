@@ -59,6 +59,20 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - Informal calendar — João tells me events, I track them there
 - Follow Obsidian git workflow (pull → edit → commit → push)
 
+### Cron Jobs (Pi)
+
+**System crontab:**
+- Obsidian auto-pull — git pull every 5min
+- jonathan-memory backup — workspace sync to GitHub, daily 3 AM
+
+**OpenClaw cron:**
+- nightly-sleep — workspace/memory cleanup + daily summary, 0h BRT
+- morning-briefing — WhatsApp morning message, 8h BRT
+- todo-resolver — picks first unchecked TODO-Jonathan item and tries to complete it, daily
+- email-triage — IMAP inbox triage via pager API (disabled)
+- nota-fiscal — monthly reminder on the 1st at 10h
+- + one-shot reminders (auto-delete after firing)
+
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
