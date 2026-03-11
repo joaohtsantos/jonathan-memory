@@ -3,6 +3,7 @@
 ## João
 - Full name: João Henrique Teixeira Santos
 - Brazilian, bilingual PT/EN — match his language
+- **Nunca usar "tu" — usar "você" ou "ce"**
 - Values honesty and openness
 - Has a Work Mac (restricted software installs) and a Personal Mac (rarely used)
 - Personal GitHub: joaohts
@@ -38,6 +39,7 @@
 - **jonathan-memory backup:** `/home/joaohts/jonathan-memory-backup/` → `github.com/joaohtsantos/jonathan-memory` (private). Daily cron at 3 AM syncs workspace files (SOUL, MEMORY, USER, IDENTITY, AGENTS, TOOLS, HEARTBEAT, CHANGELOG, contacts, memory/, audit/)
 
 ## Projects
+- **Spotify Backup:** `/home/joaohts/spotify-backup/` — TypeScript + tsx, OAuth2, backs up playlists + albums + top tracks to JSON. Two cron jobs: weekly (playlists/albums diff, Tue 8:15 days 8-31) and monthly (+ top 20 short_term tracks, first Tue). Reports via WhatsApp. Spotify app ID: `a51170d21c2b469891afe76b9ae065f0`.
 - **Pager app:** Android push notification app for Jonathan alerts. Expo + React Native, package `cc.jsplayground.pager`. In progress at `/home/joaohts/jonathan-pager/`. App refactor (Requests tab with react-navigation) pending.
 - **Pager API:** Express + SQLite + TypeScript backend for email approval system. Repo: joaohtsantos/pager-api (private). Deployed as systemd service on port 3100. Tunnel: pager.jsplayground.cc. API key in `.env`.
 - **Email agent:** Read-only IMAP agent (jhtpsantos@gmail.com via himalaya). Cron every 30min. **Blocker:** web_fetch can't send Authorization headers — need query param auth or exec+curl allowlist.
