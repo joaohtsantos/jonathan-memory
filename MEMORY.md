@@ -39,7 +39,8 @@
 - **jonathan-memory backup:** `/home/joaohts/jonathan-memory-backup/` → `github.com/joaohtsantos/jonathan-memory` (private). Daily cron at 3 AM syncs workspace files (SOUL, MEMORY, USER, IDENTITY, AGENTS, TOOLS, HEARTBEAT, CHANGELOG, contacts, memory/, audit/)
 
 ## Projects
-- **Spotify Backup:** `/home/joaohts/spotify-backup/` — TypeScript + tsx, OAuth2, backs up playlists + albums + top tracks to JSON. Two cron jobs: weekly (playlists/albums diff, Tue 8:15 days 8-31) and monthly (+ top 20 short_term tracks, first Tue). Reports via WhatsApp. Spotify app ID: `a51170d21c2b469891afe76b9ae065f0`.
+- **Spotify Backup:** `/home/joaohts/spotify-backup/` — TypeScript + tsx, OAuth2, backs up playlists + albums + top tracks to JSON. Two cron jobs: weekly (every Tue 8:15, playlists/albums diff) and monthly (1st of each month 8:15, + top 20 short_term tracks). Reports via WhatsApp. Spotify app ID: `a51170d21c2b469891afe76b9ae065f0`.
+- **Sinapses (memorySearch):** OpenClaw built-in memory search activated (2026-03-11). Gemini embeddings (gemini-embedding-001), hybrid search (BM25 70% + vector 30%), MMR diversity λ=0.7, temporal decay 30d half-life. 43 memory files indexed. Auto-inject plugin (`before_prompt_build`) identified as best path for auto-recall — pending João's decision.
 - **Pager app:** Android push notification app for Jonathan alerts. Expo + React Native, package `cc.jsplayground.pager`. In progress at `/home/joaohts/jonathan-pager/`. App refactor (Requests tab with react-navigation) pending.
 - **Pager API:** Express + SQLite + TypeScript backend for email approval system. Repo: joaohtsantos/pager-api (private). Deployed as systemd service on port 3100. Tunnel: pager.jsplayground.cc. API key in `.env`.
 - **Email agent:** Read-only IMAP agent (jhtpsantos@gmail.com via himalaya). Cron every 30min. **Blocker:** web_fetch can't send Authorization headers — need query param auth or exec+curl allowlist.

@@ -1,2 +1,11 @@
 [2026-03-11 00:02:39] nightly-sleep: archived 4 TODOs, created daily note 2026-03-10, sleep note 2026-03-11. No workspace/obsidian cleanup needed.
 [2026-03-11 00:02] HEARTBEAT: Late night, nothing new. HEARTBEAT_OK.
+[2026-03-11 08:00:28] CRON morning-briefing: sent WhatsApp briefing to João. Events: Alejandra farewell 20/03, Lolla 22/03. No Jellyfin activity. 4 TODOs archived overnight.
+2026-03-11T11:03:22 [heartbeat] 8AM check. Created daily memory. Calendar reviewed (farewell 20/03, Lolla 22/03). No urgent items.
+[2026-03-11T08:17:17-03:00] [heartbeat] 8:17 AM check. No new activity since morning briefing. HEARTBEAT_OK.
+[2026-03-11T11:18:12Z] CRON spotify-backup: FAILED — Spotify API rate limit (Retry-After: 9233s). Only 4/92 playlists fetched before timeout. Notified João via WhatsApp.
+[2026-03-11 09:29:24] Heartbeat: Sinapses indexing in background (setsid), memory files + sessions. Reminder endereco Emily -> Neco at 11h. Spotify cron fix applied.
+[2026-03-11 09:50:35] TODO-resolver: completed 'Send me a push and message if you're alive' — sent push + WhatsApp, marked done, pushed to git
+2026-03-11T11:48:14-03:00 | Memory flush: appended morning session notes to memory/2026-03-11.md (sinapses project, spotify cron fix, neco reminder, memory indexing)
+2026-03-11T17:39:59-03:00 | Heartbeat 17:39: appended Neco conversations to daily notes
+2026-03-11T21:40:01-03:00 | Heartbeat 21h: updated daily notes, nothing urgent
