@@ -1,2 +1,8 @@
 [2026-03-12 00:01:58] SLEEP CYCLE: Updated MEMORY.md (Sinapses project + Spotify cron fix). Archived 3 completed TODOs. Created daily-notes/2026-03-11.md. Created sleep/2026-03-12.md. Pushed to Obsidian.
 2026-03-12T00:02:33-03:00 | Heartbeat: midnight check. Daily notes already complete. No new messages since ~18h. Sleep cycle cron will handle nightly cleanup.
+[2026-03-12 08:00:31] morning-briefing cron: sent WhatsApp briefing to João. Calendar: 2 upcoming events (Alejandra farewell 20/03, Lolla 22/03). Sleep: 3 TODOs archived, MEMORY updated. Jellyfin: joaohts watched Deus e o Diabo briefly. No calendar cleanup needed.
+[2026-03-12 08:02:46] HEARTBEAT 8h — Created memory/2026-03-12.md. Updated MEMORY.md with Sinapses project + Spotify cron fix. No urgent items. Push sent.
+[2026-03-12 10:34:37] Updated nightly-sleep cron: added Step 5b (TODO daily section rotation). Hoje→Ontem→DataNome cycle, seções >7 dias removidas, itens pendentes preservados.
+[2026-03-12 12:02:22] HEARTBEAT 12h — Updated memory/2026-03-12.md with morning events (grammar check, TODO rotation, SSH fix). Nothing urgent.
+[2026-03-12 16:02:26] HEARTBEAT 16h — Session active with João (grammar checks, TODO rotation, Obsidian SSH fix, Segura message review). No proactive action needed.
+[2026-03-12 20:02:21] HEARTBEAT 20h — Session active with João (TODO rotation, Obsidian SSH fix, Neco relay). Nothing new to check.
