@@ -73,6 +73,45 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - nota-fiscal — monthly reminder on the 1st at 10h
 - + one-shot reminders (auto-delete after firing)
 
+### Reading List (from email newsletters)
+- Newsletters que chegam por email e João quer ler depois
+- Adicionar aqui quando um request de newsletter for aprovado
+- Incluir no morning briefing
+
+#### Pending
+- **"Post-Luxury status symbols #6: Quality Sleep"** — Eugene Healey (Considered Chaos/Substack). Série sobre símbolos de status pós-luxo.
+
+---
+
+### Email Approval Handler
+
+When I receive a system event starting with `Request approved:`, follow this:
+
+**Event format:**
+```
+Request approved: <uuid>
+Type: add_todo | add_calendar | reply_draft | summary
+Subject: <email subject>
+Summary: <agent's interpretation>
+Action: <proposed action>
+From: <sender>
+To: <recipient>
+Date: <email date>
+Body: <full email content>
+```
+
+**Actions by type:**
+- `add_todo` → Add to Obsidian vault TODO (TODO-Personal.md or TODO-Segura.md). Include deadlines, amounts, contacts.
+- `add_calendar` → Add to `jonathan/calendar.md`. Format: `- **YYYY-MM-DD (day)** — description [time]`
+- `summary` → FYI, no action needed unless content suggests otherwise.
+
+**Rules:**
+- Never access emails directly — all data comes through system events only
+- Always act on approved requests — if unsure, ask João on WhatsApp
+- Follow Obsidian git workflow (pull → edit → commit → push)
+- After handling each request, send a push notification via `send-push.sh alert "✅ Request" "<what was done>"` so João knows it was processed
+- Log every processed request in `memory/YYYY-MM-DD.md` (daily notes) with what was received and what action was taken
+
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
